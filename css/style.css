@@ -1,0 +1,71 @@
+body{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.borderx2{
+    border-bottom: 2px solid grey;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    
+}
+
+.main{
+    width: 450px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    margin: 40px auto;
+    background-image: url(../img/mers.jpg);
+    background-repeat: round;
+}
+
+tbody{
+    margin: auto;
+    background-color: white;
+}
+
+.top_bg{
+    width: 700px;
+    background-size: contain;
+    
+}
+
+td, th{
+    padding: 10px 5px;
+}
+
+.bgblue{
+    background-color: blue;
+}
+
+.bgwhite{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.orl{
+    background-image: url(../img/ima.jpg);
+    background-size: contain;
+    width: 150px;
+    height: 50px;
+}
+
+.or{
+    background-image: url(../img/im.jpg);
+    background-size: contain;
+}
+
+ul:last-child{
+    list-style: square outside;
+}
+
+.bggreen{
+    background-color: green;
+}
